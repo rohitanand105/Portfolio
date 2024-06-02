@@ -1,0 +1,127 @@
+
+header{
+    color: white;
+    
+    background-color: white;
+    
+    margin: auto;
+    padding: auto;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    background-size:cover;
+    height: 12vh;
+    
+    
+    
+    
+    
+    
+}
+
+
+header img{
+    vertical-align: top;
+    border: auto;
+    outline: auto;
+    
+    float: left;
+    alt: " Circle Photo";
+    width: 100px;
+    height: 100px; 
+    border-radius: 50%; 
+    margin-left: 0;
+
+}
+
+
+header span{
+    position:relative; 
+    top: 10px;
+    text-align: center;
+    font-size: 50px;
+    color: black;
+    
+}
+
+nav{
+    display: flex;
+    /* background-color: black; */
+    float: right;
+    margin-top: -30px;
+
+    
+    
+    
+}
+
+nav a{
+    word-spacing: normal;
+    color: black;
+    
+    
+    padding: 25px 25px;
+    text-decoration: none;
+    font-size: 25px;
+    
+    
+    
+}
+body{
+    background-color: rgb(237, 240, 240);
+    margin: 0;
+    padding: 0;
+    margin-top: 0;
+}
+
+div {
+    text-align: justify;
+    
+    line-height: 1.5; /* Improve readability with line-height */
+    padding-left: 100px;
+    
+}
+
+
+.largetext{
+    font-size: 30px;
+}
+
+.spacing{
+    line-height: 2.8;
+
+}
+
+main img {
+    float: right; /* Float the image to the right */
+    width: 200px; /* Set the width of the image */
+    height: 200px; /* Set the height of the image */
+    border-radius: 50%; /* Apply border-radius for a circular shape */
+    margin-left: 20px; /* Add some margin to separate the image from the text */
+    margin-bottom: 20px; /* Add some margin to separate the image from the bottom text */
+    vertical-align: middle; /* Align the image vertically in the middle */
+}
+
+div h1{
+    font-size: 70px;
+
+}
+
+div h2{
+    font-size: 35px;
+    color:red
+    
+    
+}
+div {
+    overflow: visible;
+}
+
+
+
+
+main a {
+    text-align: center;
+
+
+
+}
