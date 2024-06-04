@@ -75,7 +75,7 @@ body{
 }
 
 div {
-    text-align: justify;
+    text-align: center;
     
     line-height: 1.5; /* Improve readability with line-height */
     padding-left: 100px;

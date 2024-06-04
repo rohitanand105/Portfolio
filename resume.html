@@ -1,16 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rohit Anand's Resume</title>
+
     <style>
+        header{
+            margin-bottom: 30px;
+        }
+        header img {
+            vertical-align: top;
+            border: auto;
+            outline: auto;
+
+            float: left;
+            alt: " Circle Photo";
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-left: 0;
+
+        }
+
+        header span {
+            position: relative;
+            top: 10px;
+            text-align: center;
+            font-size: 50px;
+            color: black;
+
+        }
+
+        nav {
+            display: flex;
+            /* background-color: black; */
+            float: right;
+            margin-top: -30px;
+
+
+
+
+        }
+
+        nav a {
+            word-spacing: normal;
+            color: black;
+
+
+            padding: 25px 25px;
+            text-decoration: none;
+            font-size: 25px;
+        }
+
+
+
         body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
             margin: 0;
             padding: 20px;
         }
+
         .container {
             max-width: 800px;
             margin: auto;
@@ -18,22 +70,59 @@
             border: 1px solid #ddd;
             background-color: #f9f9f9;
         }
-        h1, h2, h3 {
+
+        h1,
+        h2,
+        h3 {
             color: #333;
         }
+
         .section {
             margin-bottom: 20px;
         }
-        .contact-info, .personal-details, .education-details, .training-projects, .achievements, .skills, .interests {
+
+        .contact-info,
+        .personal-details,
+        .education-details,
+        .training-projects,
+        .achievements,
+        .skills,
+        .interests {
             list-style: none;
             padding: 0;
         }
-        .contact-info li, .personal-details li, .education-details li, .training-projects li, .achievements li, .skills li, .interests li {
+
+        .contact-info li,
+        .personal-details li,
+        .education-details li,
+        .training-projects li,
+        .achievements li,
+        .skills li,
+        .interests li {
             margin-bottom: 10px;
         }
     </style>
 </head>
+
 <body>
+
+
+
+    <header>
+        <img src="logo.jpg" class="logo">
+        <span>Rohit Anand</span><br>
+
+        <nav>
+            <a href="new.htm">Home</a>
+            <a href="about.html">About</a>
+            <a href="project.html">Projects</a>
+            <a href="work.html">Works</a>
+            <a href="contact.html">Contact</a>
+            <a href="blog.html">Blogs</a>
+            <a href="resume.html">Resume</a><br>
+        </nav><br>
+
+    </header>
     <div class="container">
         <h1>Rohit Anand</h1>
         <ul class="contact-info">
@@ -42,10 +131,12 @@
             <li><a href="mailto:rohitanand105@gmail.com">rohitanand105@gmail.com</a></li>
             <li><a href="https://github.com/rohitanand105" target="_blank">https://github.com/rohitanand105</a></li>
         </ul>
-        
+
         <div class="section">
             <h2>Professional Summary</h2>
-            <p>A well-organized, creative and goal-oriented undergraduate possessing excellent communication, problem-solving and leadership skills with a flair to explore suitable avenues in Information Technology while developing advanced projects with efficiency and quality.</p>
+            <p>A well-organized, creative and goal-oriented undergraduate possessing excellent communication,
+                problem-solving and leadership skills with a flair to explore suitable avenues in Information Technology
+                while developing advanced projects with efficiency and quality.</p>
         </div>
 
         <div class="section">
@@ -98,7 +189,8 @@
         <div class="section">
             <h2>Education</h2>
             <ul class="education-details">
-                <li><strong>Bachelor of Technology in Information Technology</strong>, Chandigarh Group of Colleges, Landran (2021-2025)</li>
+                <li><strong>Bachelor of Technology in Information Technology</strong>, Chandigarh Group of Colleges,
+                    Landran (2021-2025)</li>
                 <li><strong>Diploma (HSBTE)</strong>, Government Polytechnic Ambala City</li>
                 <li><strong>Matriculation (CBSE)</strong>, S.A. Jain Senior Model School, Ambala City</li>
             </ul>
@@ -113,7 +205,8 @@
                     <strong>Environment:</strong> Windows<br>
                     <strong>Languages/Database:</strong> Python<br>
                     <strong>Team Size:</strong> 1<br>
-                    It is a Cricket game in which we have to calculate the score of each player based on the runs scored by the player or total wickets taken by the player.
+                    It is a Cricket game in which we have to calculate the score of each player based on the runs scored
+                    by the player or total wickets taken by the player.
                 </li>
                 <li>
                     <strong>Online Form | Python and Django</strong><br>
@@ -121,7 +214,9 @@
                     <strong>Environment:</strong> Windows<br>
                     <strong>Languages/Database:</strong> Python, Django<br>
                     <strong>Team Size:</strong> Individual<br>
-                    In this project, I created a Django framework project using HTML and a little bit of CSS for the frontend and SQL for the backend support. This project involved creating a website to store employee information in a database and manage it as per the requirements.
+                    In this project, I created a Django framework project using HTML and a little bit of CSS for the
+                    frontend and SQL for the backend support. This project involved creating a website to store employee
+                    information in a database and manage it as per the requirements.
                 </li>
             </ul>
         </div>
@@ -141,4 +236,5 @@
         </div>
     </div>
 </body>
+
 </html>
